@@ -1,0 +1,93 @@
+/* Dark Mode styles for debug interface */
+.debug-dark-mode {
+  background-color: #1a1a2e;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.debug-dark-mode .ant-card {
+  background-color: #16213e;
+  border-color: #0f3460;
+}
+
+.debug-dark-mode .ant-card-head {
+  background-color: #16213e;
+  border-bottom-color: #0f3460;
+  color: #e0e0e0;
+}
+
+.debug-dark-mode .ant-card-head-title {
+  color: #e0e0e0;
+}
+
+.debug-dark-mode .ant-card-body {
+  color: #e0e0e0;
+}
+
+.debug-dark-mode .ant-tag {
+  border-color: #0f3460;
+}
+
+.debug-dark-card {
+  background-color: #16213e !important;
+  border-color: #0f3460 !important;
+}
+
+.debug-dark-card .ant-card-head {
+  background-color: #1a1a2e !important;
+  border-bottom-color: #0f3460 !important;
+  color: #e0e0e0 !important;
+}
+
+.debug-dark-card .ant-card-head-title {
+  color: #e0e0e0 !important;
+}
+
+.debug-dark-tree .ant-tree-node-content-wrapper {
+  color: #e0e0e0 !important;
+}
+
+.debug-dark-tree .ant-tree-switcher {
+  color: #e0e0e0 !important;
+}
+
+.debug-dark-tree .ant-tree-title {
+  color: #e0e0e0 !important;
+}
+
+.debug-terminal {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  padding: 16px;
+  border-radius: 4px;
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+  font-size: 13px;
+  line-height: 1.6;
+  height: 300px;
+  overflow: auto;
+}
+
+.debug-terminal-empty {
+  background-color: #1e1e1e;
+  padding: 40px;
+  text-align: center;
+  border-radius: 4px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+/* Training mode styles */
+.training-chart-container {
+  background-color: #fafafa;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+/* Login page enhancements */
+.login-bg {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
